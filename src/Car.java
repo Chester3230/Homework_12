@@ -1,4 +1,4 @@
-public class Car extends Bicycle {
+public class Car extends MeansOfTransportation {
 
     public Car(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
