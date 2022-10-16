@@ -11,16 +11,10 @@ public class Main {
 
         ServiceStationImpl station = new ServiceStationImpl();
         station.check(car);
-        car.checkEngine();
         station.check(car2);
-        car2.checkEngine();
         station.check(bicycle);
         station.check(bicycle2);
         station.check(truck);
-        truck.checkEngine();
-        truck.checkTrailer();
         station.check(truck2);
-        truck2.checkEngine();
-        truck2.checkTrailer();
     }
 }
